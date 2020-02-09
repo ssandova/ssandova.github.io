@@ -10,7 +10,7 @@ plot3d(
     t,
     z.comps[i].ω.(t),
     real.(z.comps[i](t)),
-    c = isa.cmap[max.(min.(round.(Int, abs.(z.comps[i].a.(t)) .* 256 / a_max), 256), 1)],
+    c = ISA.cmap[max.(min.(round.(Int, abs.(z.comps[i].a.(t)) .* 256 / a_max), 256), 1)],
     linealpha = max.(min.(abs.(z.comps[i].a.(t)) .^ (1 / 2) .* 1 / a_max, 1), 0, ),
     xlims = (minimum(t), maximum(t)),
     ylims = (-5, 20),

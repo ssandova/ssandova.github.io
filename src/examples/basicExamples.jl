@@ -1,5 +1,4 @@
-
-using isa
+using ISA
 
 #----------------------------
 # BASIC EXAMPLES
