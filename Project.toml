@@ -1,4 +1,4 @@
-name = "isa"
+name = "ISA"
 uuid = "a2039e75-8666-46c3-b633-a3dab413010f"
 authors = ["Steven Sandoval"]
 version = "0.4.0"
